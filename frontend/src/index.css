@@ -1,0 +1,453 @@
+.rating span {
+  margin: 0.1rem;
+}
+#loader-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Loader {
+  text-align: center;
+}
+
+.loader-body {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Loader h3 {
+  margin-top: 15px;
+}
+.navbar {
+  color: var(--bs-white);
+}
+p {
+  color: var(--bs-white);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.sub-text {
+  font-size: 1.2rem;
+  color: #999;
+}
+
+h1 {
+  margin: 2.8rem 0 !important;
+}
+.error-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: easeload;
+  animation-duration: 2s;
+}
+
+@keyframes easeload {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+form div {
+  margin: 1.8rem;
+}
+
+.hide {
+  transition: all 0.01s;
+  opacity: 0;
+}
+.change-flex {
+  flex-direction: column;
+}
+.jGeaPm .head-div {
+  padding: 35px 30px !important;
+}
+.sidebar-form {
+  margin: 0 0.5rem;
+  z-index: 1;
+}
+
+.sidebar-form button {
+  position: absolute;
+  right: 0%;
+  background: transparent;
+  border:#333;
+}
+
+.sidebar-form button:hover {
+  color: #919aa1 !important;
+  background-color: transparent !important;
+}
+.sidebar-form button:active {
+  color: #919aa1 !important;
+  background-color: transparent !important;
+}
+.sidebar-form button:focus {
+  color: #919aa1 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.button-icon-position {
+  right: 15% !important ;
+}
+.icon-suffix {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.footer {
+  color: #333;
+  background-color:#fff;
+}
+.footer h6,
+.footer p,
+.footer a {
+  color:#333 !important;
+}
+.page-screen {
+  min-height: 100vh;
+}
+.login-form div {
+  margin: 2.3rem 0 !important;
+}
+.margin-auto {
+  margin: 0 auto !important;
+}
+.header {
+  color: var(--bs-white);
+  background-color: rgb(51, 51, 51);
+  padding: 1.2rem 0;
+}
+
+.link-color-white {
+  color: var(--bs-white);
+}
+.link-color-white:hover {
+  color: var(--bs-white);
+}
+.subtext {
+  color: #919aa1;
+}
+.img-responsive {
+  width: 100%;
+  object-fit: cover;
+}
+.home-product-card {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home-product-card div h1 {
+  letter-spacing: 7.8px;
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 8px !important;
+  font-family: "Pacifico", cursive;
+}
+.remove-padding {
+  padding: 0 !important;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(51, 51, 51) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 51, 51);
+  border-radius: 500px;
+  border: 3px solid #ffffff;
+}
+.footer-developer {
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.category-button {
+  outline: none !important;
+  border: none !important;
+}
+.nav-item {
+  margin-right: 0 !important;
+  text-align: center;
+  margin: 8px 0;
+}
+.nav-item a {
+  padding: 0 !important;
+  text-align: center;
+  white-space: nowrap;
+}
+.checkout-step-number span {
+  text-align: center;
+  background-color: #c9c9c9;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  overflow: hidden; 
+}
+
+  .video-bg video {
+      min-width: 100%; /* Мінімальна ширина відео рівна ширині екрану */
+      min-height: 100%; /* Мінімальна висота відео рівна висоті екрану */
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Центрувати відео по горизонталі і вертикалі */
+  }
+  
+.text-overlay,.but {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  padding: 150px 50px 30px 50px; /* верх, право, низ, ліво */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* змініть значення alpha для більш або менш прозорого фону */
+  color: white;
+  z-index: 2;
+}
+.text-overlay h1 {
+  color: white;
+}
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 85px;
+  margin: 50px auto; /* Правильне використання подвійних лапок */
+  border: 3px solid #fff;
+  color: #fff;
+  text-transform: uppercase; /* Правильне використання реєстру */
+  transition: background-color 2s linear, color 0.4s linear;
+  background: transparent; /* Правильне використання подвійних лапок */
+  z-index: 2;
+}
+.btn{
+ z-index: 3;
+}
+.button-container {
+  position: relative; /* Потрібно для позиціонування */
+}
+
+.custom-button {
+  position: absolute; /* Позиціонування кнопки */
+  top: 50%; /* Переміщення вгору на 50% від батьківського контейнера */
+  left: 50%; /* Переміщення вправо на 50% від батьківського контейнера */
+  transform: translate(-50%, -50%); /* Це зміщує кнопку на половину її власної ширини та висоти, щоб вона була точно посередині */
+  padding: 10px 20px; /* Розміри внутрішнього відступу */
+  background-color: #007bff; /* Колір фону кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  border: none; /* Видалення рамки */
+  border-radius: 5px; /* Закруглення кутів кнопки */
+  cursor: pointer; /* Зміна форми курсору на вказівник */
+  z-index: 999; /* Індекс вище, ніж інші елементи на сторінці */
+}
+.category-button:hover {
+  background-color: red !important;
+  color:#fff !important;
+}
+
+
+.link-color-black {
+  color: black;
+}
+
+.important-link {
+  /* Зробити кнопку важливою */
+  z-index: 9999 !important;
+  /* Інші важливі стилі */
+  font-size: 20px !important;
+  font-weight: bold !important;
+ 
+  border: 2px solid rgb(0, 0, 0) !important; /* змінити колір обведення для прикладу */
+  padding: 10px 20px !important; /* змінити внутрішні відступи для прикладу */
+  text-decoration: none !important;
+}
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Встановлюємо відео позаду інших елементів */
+}
+
+.video-bg video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Забезпечує, що відео покриває весь контейнер */
+    transform: translate(-50%, -50%);
+}
+
+.page-screen {
+    position: relative; /* Встановлюємо відносне позиціонування для контейнера */
+    z-index: 1; /* Встановлюємо контент поверх відео */
+    padding: 20px; /* Додаємо трохи відступів */
+}
+
+.video-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Вирівнюємо відеоблоки вертикально */
+    width: 100%;
+    gap: 5px; /* Відстань між відео */
+}
+
+.video-block {
+    position: relative;
+    flex: 1; /* Всі блоки займають однаковий простір */
+    max-width: calc(60% - 5px); /* Максимальна ширина з врахуванням відстані між блоками */
+    overflow: hidden;
+    border-radius: 15px; /* Заокруглені краї */
+    background-color: #000; /* Чорний фон для кращого вигляду */
+}
+
+.video-block video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Забезпечує, що відео покриває весь контейнер */
+}
+
+.video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.link-with-border {
+    border: 2px solid white; /* Білий колір рамки */
+    padding: 5px; /* Додатковий відступ всередині рамки */
+    text-decoration: none; /* Прибираємо підкреслення, якщо потрібно */
+}
+
+.link-color-black {
+    color: black;
+}
+
+
+
+.center-text {
+  text-align: center;
+}
+.mb-2 {
+  margin-bottom: 2rem; /* Adjust the value as needed */
+}
+
+
+
+.header {
+  background-color: white;
+  color: black;
+  padding: 1rem 0;
+  margin: 0; /* прибирає відступи з країв */
+  padding: 0; /* прибирає внутрішні відступи */
+  top: 0; /* фіксує заголовок у верхньому куті екрана */
+  left: 0; /* фіксує заголовок у лівому куті екрана */
+    width: 100%;
+    position: fixed; /* Fixes the header at the top */
+    top: 0; /* Ensures it's at the very top */
+    z-index: 10; /* Makes sure the header is on top of other elements */
+    background-color: #fff; /* Set your desired background color */
+ 
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* вирівнювання по лівому краю */
+  text-align: left;
+ 
+}
+
+.h1log {
+  margin: 0 !important; /* прибирає відступи з країв */
+  padding: 0 !important; /* прибирає внутрішні відступи */
+  top: 0 !important; /* фіксує заголовок у верхньому куті екрана */
+  
+}
+
+
+.header-content h1 {
+  margin: 0;
+}
+
+.header-content nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.header-content nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-content nav a:hover {
+  text-decoration: underline;
+}
+
+.link-color-black {
+  color: black;
+}
+
+.important-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+}

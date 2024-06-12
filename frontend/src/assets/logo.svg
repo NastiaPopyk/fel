@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+  <!-- Більший червоний овал -->
+  <ellipse cx="150" cy="75" rx="140" ry="60" fill="red" />
+  
+  <!-- Надпис -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="24">BEAUTY CARTEL DISTRUBUTION</text>
+</svg>

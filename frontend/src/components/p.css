@@ -1,0 +1,20 @@
+.clas1, .clas2 {
+   
+    display: block; /* або будь-який інший значення за замовчуванням, наприклад, display: inline-block; */
+    opacity: 1;
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.clas2 {
+    display: none;
+}
+
+.card-img-container:hover .clas1 {
+    display: none;
+}
+
+.card-img-container:hover .clas2 {
+    display: block;
+}
